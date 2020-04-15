@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Responsive Layouts</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		.menu{
+			background-color: green;
+			padding:20px;
+			width:25%;
+			float:left;
+		}
+		.icons{
+			background-color: blue;
+			padding:20px;
+			width:25%;
+			float:left;
+		}
+		.layouts{
+			background-color: pink;
+			padding:20px;
+			width:25%;
+			float:left;
+		}
+		@media screen and (max-width:800px){
+			.menu,.icons,.layout{
+				width: 100%;
+			}
+		}
+	</style>
+	
+</head>
+<body>
+	<h1>Responsive Layouts</h1>
+	<div class="menu">Menu bar</div>
+	<div class="icons">Icons</div>
+    <div class="layouts">Layouts</div>
+</body>
+</html>
